@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://dex.pantherswap.com",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        href: "https://dex.pantherswap.com/#/pool",
       },
     ],
   },
@@ -59,19 +59,19 @@ export const links = [
     items: [
       {
         label: "Overview",
-        href: "https://pancakeswap.info",
+        href: "https://pantherswap.info",
       },
       {
         label: "Tokens",
-        href: "https://pancakeswap.info/tokens",
+        href: "https://pantherswap.info/tokens",
       },
       {
         label: "Pairs",
-        href: "https://pancakeswap.info/pairs",
+        href: "https://pantherswap.info/pairs",
       },
       {
         label: "Accounts",
-        href: "https://pancakeswap.info/accounts",
+        href: "https://pantherswap.info/accounts",
       },
     ],
   },
@@ -93,10 +93,10 @@ export const links = [
     label: "More",
     icon: "MoreIcon",
     items: [
-      // {
-      //   label: "Voting",
-      //   href: "https://voting.pancakeswap.finance",
-      // },
+      {
+        label: "Voting",
+        href: "https://voting.pantherswap.com",
+      },
       {
         label: "Github",
         href: "https://github.com/Knightswap",
@@ -107,7 +107,7 @@ export const links = [
       },
       {
         label: "Blog",
-        href: "https://wizardtokenofficial.medium.com/",
+        href: "https://pantherswap.medium.com",
       },
     ],
   },
@@ -115,73 +115,39 @@ export const links = [
 
 export const socials = [
   {
-    label: "Telegram",
-    icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/wizard_financial",
-      },
-      // {
-      //   label: "Bahasa Indonesia",
-      //   href: "https://t.me/PancakeSwapIndonesia",
-      // },
-      {
-        label: "中文",
-        href: " https://t.me/WizardFinancialCN",
-      },
-      // {
-      //   label: "Tiếng Việt",
-      //   href: "https://t.me/PancakeSwapVN",
-      // },
-      // {
-      //   label: "Italiano",
-      //   href: "https://t.me/goosefinanceitalian",
-      // },
-      // {
-      //   label: "русский",
-      //   href: "https://t.me/goosefinancerussian",
-      // },
-      {
-        label: "Türkiye",
-        href: "https://t.me/wizardfinancialTurkey",
-      },
-      // {
-      //   label: "Português",
-      //   href: "https://t.me/PancakeSwapPortuguese",
-      // },
-      // {
-      //   label: "Español",
-      //   href: "https://t.me/goosefinancespanish",
-      // },
-      {
-        label: "日本語",
-        href: "https://t.me/wizardfinancialJPN",
-      },
-      // {
-      //   label: "Français",
-      //   href: "https://t.me/goosefinancefrench",
-      // },
-      {
-        label: "Announcements",
-        href: "https://t.me/WIZARDannouncements",
-      },
-      // {
-      //   label: "Price Bot",
-      //   href: "https://t.me/BinanceRocketEGG",
-      // },
-    ],
+    label: "Github",
+    icon: "GithubIcon",
+    href: "https://github.com/Knightswap",
   },
+  {
+    label: "Docs",
+    icon: "GitbookIcon",
+    href: "https://knightatbsc.gitbook.io/",
+  },
+  // {
+  //   label: "Medium",
+  //   icon: "MediumIcon",
+  //   href: "https://pantherswap.medium.com",
+  // },
   {
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/WIZARD_BSC",
   },
-  // {
-  //   label: "Reddit",
-  //   icon: "RedditIcon",
-  //   href: "https://www.reddit.com/r/GooseFinanceofficial",
-  // },
+  {
+    label: "Telegram",
+    icon: "TelegramIcon",
+    items: [
+      {
+        label: "English",
+        href: " https://t.me/wizard_financia",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/WIZARDannouncements",
+      },
+    ],
+  },
 ];
 
 export const MENU_HEIGHT = 64;

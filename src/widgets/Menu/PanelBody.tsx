@@ -32,10 +32,13 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
     <Container>
       {links.map((entry) => {
         const Icon = Icons[entry.icon];
-        const iconElement = <Icon width="24px" mr="8px" />;
+        const iconElement = <Icon width="24px" mr="14px" />;
         const calloutClass = entry.calloutClass ? entry.calloutClass : undefined;
 
         if (entry.items) {
+          const itemsMatchIndex = entry.items.findIndex((item) => item.href === location.pathname);
+          const initialOpenState = entry.initialOpenState === true ? entry.initialOpenState : itemsMatchIndex >= 0;
+
           return (
             <Accordion
               key={entry.label}
@@ -43,7 +46,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
               pushNav={pushNav}
               icon={iconElement}
               label={entry.label}
-              initialOpenState={entry.initialOpenState}
+              initialOpenState={initialOpenState}
               className={calloutClass}
             >
               {isPushed &&
